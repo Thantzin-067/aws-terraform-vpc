@@ -18,16 +18,16 @@ This project automates the deployment of a secure and scalable AWS VPC infrastru
 - outputs.tf: Important information like Public IP and SSH commands.
 
 ## How to Run
-1. Initialize Terraform:
+1. #Initialize Terraform:
    ```bash
    terraform init
-   Format and Validate Code:
+   #Format and Validate Code:
    terraform fmt
-   Check the execution plan:
+   #Check the execution plan:
    terraform plan
-   Deploy the infrastructure:
+   #Deploy the infrastructure:
    terraform apply -auto-approve
-   Destroy the resources:
+   #Destroy the resources:
    terraform destroy -auto-approve
-   ```bash
+  
 
